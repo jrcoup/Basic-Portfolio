@@ -1,0 +1,40 @@
+
+
+.fixed{
+	position: fixed;
+	width: 150px;
+	height: 150px;
+	background: #ccc;
+	color : black;
+	top: 0px;
+	left: 0px;
+}
+
+.relative{
+	position: relative;
+	width: 90%;
+	height: 150px;
+	background: #ccc;
+	color : black;
+	top: 20px;
+	margin: 70px;
+}
+
+.absolute{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background: #aaa;
+	color : black;
+	top:150px;
+	right: -30px;
+}
+
+p{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+
+
+
