@@ -1,4 +1,121 @@
+.name{
+	box-sizing: border-box;
+	text-align: center;
+	background: #4aaaa5;
+	width: 250px;
+	height: 70px;
+	color: white;
+	position:relative;
+}
 
+nav{
+	font: arial;
+	color: #4aaaa5;
+}
+
+html{
+	width:960px;
+}
+
+hr{
+	margin: 0px;
+}
+
+.about{
+	background-image: url("file:///C:/KU-Coding-Bootcamp/Basic-Portfolio/assets/images/concrete_seamless.png");
+	background-size:cover;
+    background-position:center center;
+ 	background-attachment:fixed;
+}
+
+.about-me{
+	width: 60%;
+	background: yellow;
+	
+}
+
+figure.name h1{
+	top:50%;
+	left:50%;
+	padding-top: 18px;
+
+}
+
+.about-me h2{
+	margin-left: 70px;
+	margin-top: 0px;
+	padding-top: 20px;
+}
+
+.wrapper{
+	width 650px;
+	margin 0 auto o auto;
+	padding: 10px;
+}
+
+.connect{
+	width: 270px;
+	height: 250px;
+	margin: 10px;
+	background: grey;
+	z-index: -1;
+	overflow: auto;
+	position: relative;
+	right: -480px;
+	top: -260px;
+}
+
+
+.connect img{
+	max-width: 65px;
+	max-height: 65px;
+	margin: 10px;
+	align-content: center;
+}
+.connect p{
+	margin: 0px;
+}
+.background{
+	width:100%;
+	z-index: +1;
+}
+
+.pages{
+	font: 'Arial';
+	font-size: 20px;
+	color: #777777;
+}
+
+.profile_pic{
+	max-width:30%;
+	max-height:30%;
+	float: left;
+	margin-right: 15px;
+}
+
+.about{
+	color: #4aaaa5;
+	width: 250px;
+	height: 250px;
+}
+
+p{
+	color: #777777;
+	font: 'Arial';
+}
+
+h2{
+	font-family: 'Georgia', Serif;
+}
+
+h3{
+	font-family: 'Georgia', Serif;
+	color : #4aaaa5;
+}
+
+.about{
+	width: 80%;
+}
 
 .fixed{
 	position: fixed;
