@@ -8,6 +8,11 @@
 	position:relative;
 }
 
+header{
+	background: white;
+	margin:0;
+}
+
 nav{
 	font: arial;
 	color: #4aaaa5;
@@ -15,22 +20,28 @@ nav{
 
 html{
 	width:960px;
+	clear: both;
 }
 
 hr{
 	margin: 0px;
+	margin-bottom: 40px;
 }
 
-.about{
-	background-image: url("file:///C:/KU-Coding-Bootcamp/Basic-Portfolio/assets/images/concrete_seamless.png");
-	background-size:cover;
-    background-position:center center;
- 	background-attachment:fixed;
+section{
+	clear:both;
+}
+
+
+.about:after {
+	content:"";
+	display: table;
+	clear: both;
 }
 
 .about-me{
 	width: 60%;
-	background: yellow;
+	background: #ffffff;
 	
 }
 
@@ -57,7 +68,7 @@ figure.name h1{
 	width: 270px;
 	height: 250px;
 	margin: 10px;
-	background: grey;
+	background: #ffffff;
 	z-index: -1;
 	overflow: auto;
 	position: relative;
@@ -117,37 +128,9 @@ h3{
 	width: 80%;
 }
 
-.fixed{
-	position: fixed;
-	width: 150px;
-	height: 150px;
-	background: #ccc;
-	color : black;
-	top: 0px;
-	left: 0px;
-}
 
-.relative{
-	position: relative;
-	width: 90%;
-	height: 150px;
-	background: #ccc;
-	color : black;
-	top: 20px;
-	margin: 70px;
-}
 
-.absolute{
-	position: absolute;
-	width: 150px;
-	height: 150px;
-	background: #aaa;
-	color : black;
-	top:150px;
-	right: -30px;
-}
-
-p{
+.aboutme p{
 	margin-left: 70px;
 	margin-right: 70px;
 }
